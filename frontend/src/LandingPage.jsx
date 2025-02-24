@@ -8,7 +8,7 @@ const LandingPage = () => {
           fontFamily: "orbitron",
           fontWeight: "bold",
      }}
-     className='text-9xl text-center text-white'
+     className='md:text-9xl text-4xl text-center text-white'
      >
 
       <ShuffleText
