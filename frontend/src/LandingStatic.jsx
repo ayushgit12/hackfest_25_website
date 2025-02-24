@@ -23,16 +23,16 @@ function LandingStatic() {
     >
       {/* Navigation */}
       <nav className="px-6 py-4 flex justify-between md:mx-32 items-center relative z-50">
-        <div className="text-[#ff5733] cursor-pointer font-mono text-xl font-bold pressfont" onClick={()=>{
+        <div className="text-green-400 cursor-pointer font-mono text-xl font-bold pressfont" onClick={()=>{
           window.location.href = "/"
         }}>HackFest'25</div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-8">
-          <a href="#about" className="text-gray-300 hover:text-[#ff5733] transition-colors">About</a>
-          <a href="#schedule" className="text-gray-300 hover:text-[#ff5733] transition-colors">Schedule</a>
-          <a href="#sponsors" className="text-gray-300 hover:text-[#ff5733] transition-colors">Sponsors</a>
-          <a href="#faq" className="text-gray-300 hover:text-[#ff5733] transition-colors">FAQ</a>
+          <a href="#about" className="text-gray-300 hover:text-green-400 transition-colors">About</a>
+          <a href="#schedule" className="text-gray-300 hover:text-green-400 transition-colors">Schedule</a>
+          <a href="#sponsors" className="text-gray-300 hover:text-green-400 transition-colors">Sponsors</a>
+          <a href="#faq" className="text-gray-300 hover:text-green-400 transition-colors">FAQ</a>
         </div>
         
         {/* Mobile Hamburger Button */}
@@ -65,28 +65,28 @@ function LandingStatic() {
           <div className="flex flex-col items-center justify-center gap-10 w-full h-full">
             <a 
               href="#about" 
-              className="text-gray-300 hover:text-[#ff5733] transition-colors text-2xl"
+              className="text-gray-300 hover:text-green-400 transition-colors text-2xl"
               onClick={toggleMenu}
             >
               About
             </a>
             <a 
               href="#schedule" 
-              className="text-gray-300 hover:text-[#ff5733] transition-colors text-2xl"
+              className="text-gray-300 hover:text-green-400 transition-colors text-2xl"
               onClick={toggleMenu}
             >
               Schedule
             </a>
             <a 
               href="#sponsors" 
-              className="text-gray-300 hover:text-[#ff5733] transition-colors text-2xl"
+              className="text-gray-300 hover:text-green-400 transition-colors text-2xl"
               onClick={toggleMenu}
             >
               Sponsors
             </a>
             <a 
               href="#faq" 
-              className="text-gray-300 hover:text-[#ff5733] transition-colors text-2xl"
+              className="text-gray-300 hover:text-green-400 transition-colors text-2xl"
               onClick={toggleMenu}
             >
               FAQ
@@ -100,13 +100,13 @@ function LandingStatic() {
       {/* Hero Section */}
       <main className="container mx-auto px-4 pt-20 text-center">
         <div className="space-y-6">
-          <div className="inline-block px-4 py-1 bg-[#ff5733]/10 text-[#ff5733] rounded-full font-mono">
+          <div className="inline-block px-4 py-1 bg-greentext-green-400/10 text-green-400 rounded-full font-mono">
             Coming Soon
           </div>
           
           <h1 className="text-4xl md:text-6xl font-mono space-y-4 pressfont">
             <div className="text-orange-100">Get Ready to</div>
-            <div className="text-[#ff5733]">Innovate!</div>
+            <div className="text-green-400">Innovate!</div>
           </h1>
 
           <p className="max-w-2xl mx-auto text-gray-400 text-lg">
@@ -121,12 +121,12 @@ function LandingStatic() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:border-[#ff5733] text-gray-300"
+              className="flex-1 px-4 py-2 bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:border-greentext-green-400 text-gray-300"
               required
             />
             <button
               type="submit"
-              className="px-6 py-2 bg-[#ff5733] text-white rounded-lg hover:bg-[#ff5733]/90 transition-colors"
+              className="px-6 py-2 bg-greentext-green-400 text-white rounded-lg hover:bg-greentext-green-400/90 transition-colors"
             >
               Join Waitlist
             </button>

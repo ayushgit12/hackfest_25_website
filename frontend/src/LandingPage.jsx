@@ -36,7 +36,7 @@ const LandingPage = () => {
                 fontFamily: "orbitron",
                 fontWeight: "bold",
               }}
-              className='md:text-9xl text-4xl text-center text-[#ff5733]'
+              className='md:text-9xl text-4xl text-center text-green-400'
               animate={{
                 textShadow: ["0 0 10px rgba(255,87,51,0)", "0 0 20px rgba(255,87,51,0.5)", "0 0 10px rgba(255,87,51,0)"],
               }}
