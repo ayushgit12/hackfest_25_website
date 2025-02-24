@@ -38,7 +38,12 @@ const LandingPage = () => {
               }}
               className='md:text-9xl text-4xl text-center text-green-400'
               animate={{
-                textShadow: ["0 0 10px rgba(255,87,51,0)", "0 0 20px rgba(255,87,51,0.5)", "0 0 10px rgba(255,87,51,0)"],
+                textShadow: [
+                  "0 0 10px rgba(74, 222, 128, 0)", 
+                  "0 0 20px rgba(74, 222, 128, 0.6)", 
+                  "0 0 30px rgba(74, 222, 128, 0.4)", 
+                  "0 0 10px rgba(74, 222, 128, 0)"
+                ],
               }}
               transition={{
                 duration: 2,
